@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,34 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+.con-par{
+  width: 100%;
+  height: 100vh;
+  /* display: flex; */
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
+
+.Counter{
+  background-color: grey;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  /* align-item: center; */
+}
+
+.Counter h1{
+  /* display: block; */
+  align-self: center;
+  text-align: center;
+  width: 100%;
+}
+
+.Counter  h1>button{
+  margin-left:20px;
+  padding:20px;
+}
+
