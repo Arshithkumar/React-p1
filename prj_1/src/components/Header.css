@@ -16,3 +16,20 @@
     font-weight: 500;
     cursor: pointer;
 }
+
+
+.comp{
+    width: 100%;
+    display: flex;
+    /* justify-items: center; */
+}
+
+
+.btn {
+    padding: 10px;
+    background-color: transparent;
+    width:200px;
+
+    align-self: center;
+    justify-items: center;
+}
